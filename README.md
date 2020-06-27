@@ -41,7 +41,7 @@ Your local Hugo repo should now contain `video.html` and `audio.html`
 
 Audio requires two arguments:
 
-* path-to-audio with quotes `audio/my-voice-recording.mp3`
+* path-to-audio with quotes `/audio/my-voice-recording.mp3`
 * preload (auto | metadata | none)
 
 Example:
@@ -51,13 +51,31 @@ Example:
 
 ```
 
+!Important: remember the preceding `/` on file location.
+
 Note: I use only `auto` to prevent skipping in Chrome browser.
 
 The HTML audio tag works with `.mp3`, `.ogg`, and `.wav` files only.
 
 ### video.html
 
-Coming Soon.
+Currently supports only MP4.
+
+Video requires four arguments:
+
+* path-to-audio with quotes `/video/my-video.mp4`
+* width in pixels 
+* height in pixels 
+* preload (auto | metadata | none)
+
+Example:
+
+```
+{{< video "/video/my-video.mp4" 600 400 auto >}}
+
+```
+
+!Important: remember the preceding `/` on file location.
 
 
 
