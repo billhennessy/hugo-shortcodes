@@ -65,6 +65,8 @@ Coming Soon.
 
 Just follow your usual deployment method. 
 
+For deploying self-hosted audio and video files, I create a directory `/static/audio` and `/static/video`. 
+
 ## Built With
 
 * HTML audio and video tags
