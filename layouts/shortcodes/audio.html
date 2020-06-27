@@ -1,3 +1,12 @@
+<!-- 
+A simple implementation of the HTML audio tag. Supports MP3, OGG, and WAV files.
+Arguments:
+
+- source: "/audio/my-audio.mp3"
+- preload (auto | metadata | none)
+
+-->
+
 <audio controls preload="{{ index .Params 1 }}">
     <source src="{{ index .Params 0 }}" type="audio/mpeg">
   Your browser does not support the audio element.
