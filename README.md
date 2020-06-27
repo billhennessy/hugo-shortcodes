@@ -15,7 +15,9 @@ path-to-hugo-repo/layouts/shortcodes/
 
 ### Prerequisites
 
-Assumes you have a local Hugo repo.
+Assumes you have a local Hugo repo. 
+
+The HTML audio and video tags require later browsers. You can see which [browsers comply here](https://en.wikipedia.org/wiki/HTML5_audio). 
 
 ### Installing
 
@@ -55,7 +57,7 @@ The HTML audio tag works with `.mp3`, `.ogg`, and `.wav` files only.
 
 ### video.html
 
-IN DEVELOPMENT
+Coming Soon.
 
 
 
@@ -70,7 +72,7 @@ Just follow your usual deployment method.
 
 ## Contributing
 
-Just submit a pull request.
+Feel free to improve or add any Hugo shortcodes you'd like. Just submit a pull request. 
 
 ## Versioning
 
